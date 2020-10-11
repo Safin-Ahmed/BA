@@ -31,7 +31,13 @@ $(document).ready(function() {
  	'data-aos' : "flip-up",
  });
 
-  AOS.init(); 
+ AOS.init(); 
+ AOS.init({
+  disable: function() {
+    var maxWidth = 767;
+    return window.innerWidth < maxWidth;
+  }
+});
 
   $("body").niceScroll({
    	  cursorcolor: "#de2b24",
