@@ -4,10 +4,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+    <link rel="stylesheet" type="text/css" href="css/aos.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -15,7 +18,17 @@
     <title>Business | A modern responsive website</title>
   </head>
   <body>
-  <header>
+
+ <div id="loader-wrapper">
+    <div id="loader">
+      
+    </div>
+
+    <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+</div>
+
+  <header >
     <div class="container">
       <div class="row justify-content-end">
         <div class="col-lg-6">
@@ -80,7 +93,7 @@
 <!-- Navbar End -->
 
 <!-- banner-section start -->
-<section class="banner-section">
+<section>
   <div class="img-wrapper">
     <img src="images/banner.jpg" class="w-100 h-100">
 
@@ -104,26 +117,26 @@
       <h4>We are added our major Services</h4>
       <span></span>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
 
-      <div class="col-lg-4 col-md-4 text-center">
-        <div class="about-us">
+      <div class="col-md-4 col-sm-6 text-center">
+        <div class="about-us" data-aos="flip-right">
           <img src="images/like.png" class="img-fluid">
           <h2>Facebook Marketing</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  standard dummy text ever</p>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-4 text-center">
-        <div class="about-us">
+      <div class="col-md-4 col-sm-6 text-center">
+        <div class="about-us" data-aos="flip-right">
           <img src="images/book.png" class="img-fluid">
           <h2>Facebook Marketing</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  standard dummy text ever</p>
         </div>
       </div>
       
-      <div class="col-lg-4 col-md-4 text-center">
-        <div class="about-us">
+      <div class="col-md-4 col-sm-6 text-center">
+        <div class="about-us" data-aos="flip-right">
           <img src="images/text.png" class="img-fluid">
           <h2>Facebook Marketing</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.  standard dummy text ever</p>
@@ -137,14 +150,14 @@
 <!-- About-us section end -->
 
 <!-- Approach-section start -->
-<section class="approach-section">
+<section class="approach-section" class="banner-section">
   <div class="container">
      <div class="heading text-center">
       <h1>Our Approch</h1>
       <h4>Check Our approches step by step ( how we do it )</h4>
       <span></span>
     </div>
-    <div class="row g-0 align-items-center">
+    <div class="row g-0 "data-aos="fade-right">
       <div class="col-lg-3 col-md-5">
         <div class="approach-img">
           <img src="images/camera.jpg" class="img-fluid">
@@ -155,8 +168,8 @@
         </div>
       </div>
 
-      <div class="col-lg-9 col-md-7">
-        <div class="approach-text">
+      <div class="col-lg-9 col-md-7 col-sm-12">
+        <div class="approach-text shadow-sm">
           <h2>Step 1 : Heading Here</h2>
           <p class="ml-0 mr-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
         </div>
@@ -165,10 +178,10 @@
 
 
 
-    <div class="row g-0 align-items-center">
+    <div class="row g-0 " data-aos="fade-left" >
      
      <div class="col-lg-9 col-md-7">
-        <div class="approach-text text-right">
+        <div class="approach-text shadow-sm text-right">
           <h2>Step 2 : Heading Here</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
         </div>
@@ -187,7 +200,7 @@
 
  </div>
 
-     <div class="row g-0 align-items-center">
+     <div class="row g-0" data-aos="fade-right">
       <div class="col-lg-3 col-md-5">
         <div class="approach-img">
           <img src="images/table.jpg" class="img-fluid">
@@ -199,7 +212,7 @@
       </div>
 
       <div class="col-lg-9 col-md-7">
-        <div class="approach-text">
+        <div class="approach-text shadow-sm">
           <h2>Step 3 : Heading Here</h2>
           <p class="ml-0 mr-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
         </div>
@@ -207,10 +220,10 @@
     </div>
 
 
-    <div class="row g-0 align-items-center">
+    <div class="row g-0" data-aos="fade-left">
      
      <div class="col-lg-9 col-md-7">
-        <div class="approach-text text-right">
+        <div class="approach-text shadow-sm text-right">
           <h2>Step 4 : Heading Here</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
         </div>
@@ -242,8 +255,8 @@
       <h4>We are added our featured works below</h4>
       <span></span>
     </div>
-   <div class="row justify-content-center g-0">
-     <div class="col-3">
+   <div class="row justify-content-center g-0" data-aos="fade-right">
+     <div class="col-4 col-lg-3">
          <div class="our-work">
           <img src="images/work-1.jpg">
 
@@ -255,7 +268,7 @@
         </div>
      </div>  
 
-     <div class="col-3">
+     <div class="col-4 col-lg-3">
          <div class="our-work">
           <img src="images/work-2.jpg">
           <div class="work-caption">
@@ -266,7 +279,7 @@
         </div>
      </div>  
 
-     <div class="col-3">
+     <div class="col-4 col-lg-3">
          <div class="our-work">
           <img src="images/work-3.jpg">
           <div class="work-caption">
@@ -277,7 +290,7 @@
         </div>
      </div>  
 
-     <div class="col-3">
+     <div class="col-4 col-lg-3 d-none d-lg-block">
          <div class="our-work">
           <img src="images/work-4.jpg">
           <div class="work-caption">
@@ -292,8 +305,8 @@
 
    </div>
 
-      <div class="row justify-content-center g-0">
-     <div class="col">
+      <div class="row justify-content-center g-0" data-aos="fade-left">
+     <div class="col-4 col-lg-3 d-none d-lg-block">
          <div class="our-work">
           <img src="images/work-2.jpg">
           <div class="work-caption">
@@ -304,7 +317,7 @@
         </div>
      </div>  
 
-     <div class="col">
+     <div class="col-4 col-lg-3 ">
          <div class="our-work">
           <img src="images/work-4.jpg">
           <div class="work-caption">
@@ -315,7 +328,7 @@
         </div>
      </div>  
 
-     <div class="col">
+     <div class="col-4 col-lg-3">
          <div class="our-work">
           <img src="images/work-3.jpg">
           <div class="work-caption">
@@ -326,7 +339,7 @@
         </div>
      </div>  
 
-     <div class="col">
+     <div class="col-4 col-lg-3">
          <div class="our-work">
           <img src="images/work-1.jpg">
           <div class="work-caption">
@@ -410,7 +423,7 @@
 
     <p>Subscribe to our newsletter to stay update with what is new</p>
 
-    <input type="email" placeholder="Email Adress" class="form-control">
+    <input data-aos="fade-right" type="email" placeholder="Email Adress" class="form-control">
 
     <button type="button" class="btn">Subscribe</button>
 
@@ -421,7 +434,7 @@
 <!-- footer-section starts -->
 <footer>
   <div class="container">
-    <p>Cssauthor.com © 2014 All Rights Reserved</p>
+    <p>Safin-Ahmed © 2020 All Rights Reserved</p>
   </div>
 </footer>
 <!-- footer-section ends -->
@@ -432,11 +445,16 @@
     <!-- Option 1: Bootstrap Bundle with Popper.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+
+
     <script type="text/javascript" src="js/main.js"></script>
 
     <!-- Option 2: Separate Popper.js and Bootstrap JS
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
     -->
+
   </body>
 </html>

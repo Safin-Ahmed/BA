@@ -7,6 +7,11 @@
 		padding: 35px 0;
 	}
 
+	.approach-section .approach-text {
+    background-color: #fff;
+    padding: 46px 90px; 
+}
+
 }
 
 @media(max-width: 991px){
@@ -48,14 +53,130 @@ ul.navbar-nav li:last-child a {
     font-size: 18px;
 }
 
+.approach-section .approach-text {
+    background-color: #fff;
+    padding: 15px 71px;
+}
+
+.our-work-section .our-work .work-caption img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.our-work-section .our-work .work-caption p {
+   display: none;
+}
+.our-work-section .our-work .work-caption h2 {
+    font-size: 20px;
+}
+.card-body p {
+    padding: 45px 18px;
+  	font-size: 16px;
+}
 
 }
 
 @media(max-width: 767px){
+	.navbar {
+    padding: 25px 0;
+}
+ul.navbar-nav li a {
+    font-size: 16px;
+}
+.banner-text h1 {
+    font-size: 30px;
+}
+.banner-text p {
+    font-size: 22px;
+}
+.banner-text button {
+    padding: 15px 17px;  
+}
+.about-us-section .about-us p {
+    font-size: 13px;
+}
+.about-us{
+	margin-bottom: 30px;
+}
+.about-us-section {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.approach-section .approach-img .step {
+    right: 0;  
+}
+.approach-section .approach-img .step-2, .approach-section .approach-img .step-4 {
+    left: 0;
+    right: unset;
+}
+.approach-section .approach-text {
+    background-color: #fff;
+    padding: 25px 15px;
+}
+.form-control {
+    width: 100%;
+}
+.contact-section .heading h1 {
 
+    font-size: 28px;
+}
+.card-body p {
+    padding: 45px 0px;
+    font-size: 15px;
+}
 }
 
 @media(max-width: 575px){
 
+header .social ul li i {
+    font-size: 16px;
+    cursor: pointer;
+}
+header .social ul li {
+    margin-left: 8px;
+    font-size: 14px;
+}
+header .social ul li i.icofont-facebook {
+    
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.logo-content h1 {
+    font-size: 30px;
 }
 
+.logo-content p {
+    font-size: 14px;
+    margin: 0;
+    margin-left: 3px;
+}
+.navbar-brand img {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 60px;
+}
+.navbar-nav {
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 0 !important;
+}
+.banner-text h1 {
+    font-size: 20px;
+}
+.banner-text p {
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.banner-text button {
+    padding: 5px 10px;
+}
+.btn-custom {
+    right: -20px;
+}
+.approach-section .heading h4{
+	font-size: 18px;
+}
+}
